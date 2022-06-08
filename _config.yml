@@ -79,3 +79,11 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+title: ice-berg
+description: 星辰大海
+keywords: 个人博客, 日记
+author: ARCTURUS
+timezone: Asia/Shanghai
+language: zh-CN
+email: 1638330246@qq.com
