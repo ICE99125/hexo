@@ -78,3 +78,8 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
     type:
+
+algolia:
+  applicationID: 'V1R5KMI2QW'
+  apiKey: '8e550e4149ba592e4e4b937523bedf1e'
+  indexName: 'hexo'

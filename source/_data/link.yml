@@ -3,5 +3,5 @@
   link_list:
     - name: Vuejs
       link: https://staging-cn.vuejs.org/
-      avatar: https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg
+      avatar: 
       descr: 渐进式 JavaScript 框架
