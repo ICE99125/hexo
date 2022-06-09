@@ -17,6 +17,4 @@ console.log('hello world');
 
 # 数学公式测试
 
-$$
-y=2x^2+3
-$$
+$$ y=2x^3+log_2 4 $$
