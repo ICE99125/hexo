@@ -14,8 +14,10 @@
         margin: 15px 7px
         width: calc(100% / 3 - 15px)
         height: 90px
-        border-radius: 8px
+        border-radius: 5px
         line-height: 17px
+        background: rgba(242,246,252,0.2)
+        backdrop-filter: blur(10px)
         -webkit-transform: translateZ(0)
 
         +maxWidth1024()
@@ -23,11 +25,6 @@
 
         +maxWidth600()
           width: calc(100% - 15px) !important
-
-        &:hover
-          .flink-item-icon
-            margin-left: -10px
-            width: 0
 
         &:before
           position: absolute
@@ -40,11 +37,6 @@
           content: ''
           transition: transform .3s ease-out
           transform: scale(0)
-
-        &:hover:before,
-        &:focus:before,
-        &:active:before
-          transform: scale(1)
 
         a
           color: var(--font-color)
