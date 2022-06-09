@@ -14,3 +14,9 @@ categories: 日常
 ```js
 console.log('hello world');
 ```
+
+# 数学公式测试
+
+$$
+y=2x^2+3
+$$

@@ -79,7 +79,17 @@ theme: butterfly
 deploy:
     type:
 
+# 搜索
 algolia:
   applicationID: 'V1R5KMI2QW'
-  apiKey: '8e550e4149ba592e4e4b937523bedf1e'
+  apiKey: '4f3775dec861a8d47bfc92bfbf80a1ad'
   indexName: 'hexo'
+  chunkSize: 5000
+
+# 数学公式
+markdown:
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      options:
+        strict: false
